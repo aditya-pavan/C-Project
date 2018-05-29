@@ -35,12 +35,6 @@ p {
     margin : 40px;
     float:right;
 }
-.container-footer {
-    top:600px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-}
 a {
     float:right;
     padding:40px;

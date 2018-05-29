@@ -1,0 +1,79 @@
+ul
+{
+    list-style-type: none;
+    padding: 0; 
+    overflow: hidden;
+
+}
+li
+{
+	float:left;
+	position:relative;
+	left:550;
+	top:7;
+}
+li a
+{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: pink;
+}
+body
+{
+	background:url("sky.png");
+}
+#b1 
+{
+    background-color:blue;
+	color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+#b2 
+{
+    background-color:blue;
+	color: white;
+    padding: 10px 16px;
+    text-decoration: none; 
+}
+#b3 
+{
+    background-color:blue;
+	color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+#b4 
+{
+    background-color:blue;
+	color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+#b5 
+{
+    background-color:blue;
+	color: white;
+    padding: 10px 16px;
+    text-decoration: none; 
+}
+#b6
+{
+    background-color:blue;
+	color: white;
+    padding: 10px 16px;
+    text-decoration: none; 
+}
+img
+{
+	position:relative;
+	left:100px;
+	top:-450px;
+	width:300;  
+	height:450px;
+}
