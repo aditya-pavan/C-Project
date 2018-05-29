@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin:20px;
+    position:fixed;
 }
 #a{
     font-family: sans-serif;
@@ -13,12 +14,13 @@
     padding:17px;
     color:white;
 }
-a:hover{
+#a:hover{
     color:green;
 }
 body {
-    background-image: url("background.jpg");
+   background-image: url("background.jpg");
     background-size: 1500px;
+    background-attachment:scroll;
 }
 p {
     color: white;
@@ -43,4 +45,24 @@ a {
     float:right;
     padding:40px;
 }
-
+.body-container {
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top:200px;
+    left:20px;
+}
+#text {
+    position:relative;
+    /*margin-left: 400px;*/
+    margin-right:300px;
+    bottom:50px;
+    background-color:grey;
+}
+.image-container {
+    position:relative;
+    left:50px;
+    top:-100px;
+    transform: rotate(270deg);
+}
